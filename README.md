@@ -3,8 +3,6 @@
 </p>
 
 
-# Teslo API
-
 1. Clonar proyecto
 2. ```npm install```
 3. Renombrar el archivo ```.env.development``` a ```.env```
@@ -15,3 +13,6 @@ docker-compose up -d
 
 6. Levantar servidor: ```npm run start:dev```
 7. Utilizar en ```http://localhost:${PORT}```
+8. Utilizar seed ejecutando una peticion get al endpoint ```http://localhost:${PORT}/api/seed```
+
+Informacion extra en: ```https://docs.google.com/document/d/1CMk2IeSYlRiy5wgzvFzl2iCB1NBepQn7fhI6X1yJif0/edit```
